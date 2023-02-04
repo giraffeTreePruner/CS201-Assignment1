@@ -1,15 +1,17 @@
 #include "warmup.asmeyers.h"
 #include "string.h"
+#include "stdlib.h"
 
 Song *createSong(char *title, char *artist, unsigned int year){
-    Song song;
+    Song *song;
+    song = malloc(sizeof(Song));
     if(title && artist){
         if(strlen(title) > 0 && strlen(title) <= MAXNAMELEN &&
                 strlen(artist) > 0 && strlen(artist) <= MAXNAMELEN){
-            strcpy(song.title, title);
-            strcpy(song.artist, artist);
-            song.year = year;
-            return &song;
+            strcpy(song->title, title);
+            strcpy(song->artist, artist);
+            song->year = year;
+            return song;
         }
     }
     return NULL;
@@ -24,7 +26,9 @@ int compareSongs(Song *songOne, Song *songTwo){
             if (songOne->year == songTwo->year)
                 return 0;
             return (songOne->year < songTwo->year) ? -1 : 1;
+        } else{
+            return artistsCom < 0 ? -1 : 1;
         }
     } else
-        return titlesCom;
+        return titlesCom < 0 ? -1 : 1;
 }
