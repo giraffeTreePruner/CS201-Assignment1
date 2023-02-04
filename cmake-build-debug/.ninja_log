@@ -1,0 +1,19 @@
+# ninja log v5
+0	117	1675534160403780779	CMakeFiles/Assignment1.dir/warmup.asmeyers.c.o	19bed65cd5166e2b
+0	66	1675535115148540037	CMakeFiles/Assignment1.dir/warmup.asmeyers.c.o	19bed65cd5166e2b
+1	86	1675535115169185862	CMakeFiles/Assignment1.dir/warmup-tests.c.o	e0ef698ac615a84a
+86	154	1675535115237901882	Assignment1	a86b1d18802e150c
+1	66	1675535659732918995	CMakeFiles/Assignment1.dir/warmup.asmeyers.c.o	19bed65cd5166e2b
+66	135	1675535659802426718	Assignment1	a86b1d18802e150c
+1	68	1675535848465408078	CMakeFiles/Assignment1.dir/warmup.asmeyers.c.o	19bed65cd5166e2b
+68	133	1675535848530037516	Assignment1	a86b1d18802e150c
+0	68	1675536124877894308	CMakeFiles/Assignment1.dir/warmup.asmeyers.c.o	19bed65cd5166e2b
+69	148	1675536124957190304	Assignment1	a86b1d18802e150c
+0	63	1675536295629154486	CMakeFiles/Assignment1.dir/warmup.asmeyers.c.o	19bed65cd5166e2b
+63	130	1675536295697079526	Assignment1	a86b1d18802e150c
+0	71	1675536439452991646	CMakeFiles/Assignment1.dir/warmup.asmeyers.c.o	19bed65cd5166e2b
+71	140	1675536439523182853	Assignment1	a86b1d18802e150c
+1	72	1675536540464098660	CMakeFiles/Assignment1.dir/warmup.asmeyers.c.o	19bed65cd5166e2b
+72	140	1675536540532759066	Assignment1	a86b1d18802e150c
+1	68	1675536557716018478	CMakeFiles/Assignment1.dir/warmup.asmeyers.c.o	19bed65cd5166e2b
+68	129	1675536557777803453	Assignment1	a86b1d18802e150c

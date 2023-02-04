@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/giraffe/Desktop/CS201/Assignment1/build",
+  "command": "/usr/bin/clang  -I/Users/giraffe/Desktop/CS201/Assignment1/. -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu11 -o CMakeFiles/Assignment1.dir/warmup.asmeyers.c.o -c /Users/giraffe/Desktop/CS201/Assignment1/warmup.asmeyers.c",
+  "file": "/Users/giraffe/Desktop/CS201/Assignment1/warmup.asmeyers.c"
+},
+{
+  "directory": "/Users/giraffe/Desktop/CS201/Assignment1/build",
+  "command": "/usr/bin/clang  -I/Users/giraffe/Desktop/CS201/Assignment1/. -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu11 -o CMakeFiles/Assignment1.dir/warmup-tests.c.o -c /Users/giraffe/Desktop/CS201/Assignment1/warmup-tests.c",
+  "file": "/Users/giraffe/Desktop/CS201/Assignment1/warmup-tests.c"
+}
+]
